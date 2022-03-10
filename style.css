@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+ 
+.navbar{
+    display:flex;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    background-color: white;
+}
+.logo{
+    justify-content: center;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+   border: solid white;
+ 
+   padding:0px;
+ 
+ 
+}
+ 
+.navlist{
+    list-style: none;
+    background-color: white;
+     color: black;
+    display:flex;
+    width: 100%;
+ 
+}
+.navlist li{
+ 
+  width: 150px;
+  margin-left:0;
+  border: 0;
+  line-height: 2.5;
+  padding: 0;
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(29, 2, 2);
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(0, 114, 220);
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+ 
+ 
+
+ 
+ 
+.navlist li a:hover{
+    color: white;
+    background-color: rgb(112, 175, 190);
+}
+.rightnav{
+    text-align: right;
+   background-color: burlywood;
+   color: rgb(3, 26, 46);
+   justify-items: baseline;
+ 
+ 
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 70%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 160px;
+  border: 3px solid #00B4CC;
+  margin-left: 220%;
+  padding: 5px;
+  height: 20px;
+  border-radius: 30px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 120px;
+  height: 36px;
+  margin-left:0;
+  border: 1px solid #ba181b;
+  background: #ba181b;
+  text-align: center;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 15px;
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    padding: 2%;
+}
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.background{
+  background-image: url("bg2.jpg"); /* The image used */
+  background-color: #9DBFAF; /* Used if the image is unavailable */
+  height: 900px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+ 
+
+
+.form{
+    display: flex;
+ 
+    width: 50%;
+    float: inline-start;
+    height: 560px;
+    width: 500px;
+    flex-direction: column;
+    margin: 80px;
+    padding: 80px;
+    color: black;
+    background-color: lightblue;
+    font-weight: 700;
+ 
+    justify-content: center;
+    border: solid black;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+} 
+ 
+#f1,#f2,#f3,#f4,#f5,#f6{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #00B4CC;
+    border-radius: 15px;
+}
+ 
+ 
+ 
+#tr{
+    font-size: 8;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
+}
+.styled {
+  width: 150px;
+  margin-left: 35%;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
